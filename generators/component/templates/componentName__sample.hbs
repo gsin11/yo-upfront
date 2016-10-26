@@ -1,0 +1,24 @@
+---
+{
+  "layout"     : "ux_empty.hbs",
+  "title"      : "<%= initialName %>",
+  "fsdId"      : "C00x",
+  "categories" : ["components"],
+  "description": "Lorem ipsum dolor sit amet",
+  "components" : ["<%= componentName %>"],
+  "dependency" : []
+}
+---
+{{> ux_header}}
+<div class="component-metadata">
+  <p class="component-fsdid">{{page.fsdId}}</p>
+  <h1 class="component-title">{{page.title}}</h1>
+  <p class="component-description">{{page.description}}</p>
+</div>
+
+<h1 class="sample-header">{{page.fsdId}} - Variation Name</h1>
+
+{{> <%= componentName %> base.insert_uuid_here}}
+
+{{!-- This section is to embed the handlebars code --}}
+{{> ux_embedCode component=page.components }}

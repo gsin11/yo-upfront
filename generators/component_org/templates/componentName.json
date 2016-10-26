@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema#",
+  "id": "/",
+  "type": "object",
+  "title":"<%= componentName %>",
+  "useComponent" : [],
+  "properties": {
+    "id": {
+      "required": true,
+      "readOnly": true,
+      "type": "string",
+      "format":"uuid",
+      "options" : {
+        "short":true
+      }
+    },
+    "component": {
+      "required": true,
+      "readOnly": true,
+      "type": "string",
+      "default": "<%= componentName %>"
+    },
+    "type": {
+      "id": "type",
+      "type": "string",
+      "enum": ["none", "variation1", "variation2"],
+      "default": "none"
+    }
+  }
+}
