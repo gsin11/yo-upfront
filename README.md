@@ -15,7 +15,7 @@ To install generator-upfront from npm, run:
 Please rplace `yourUsername` with your username and `#latest` with the version you want
 
 ```bash
-npm install -g https://github.com/gsin11/yo-upfront-generator.git
+npm install -g https://github.com/gsin11/yo-upfront.git
 ```
 
 Finally, initiate the generator:
