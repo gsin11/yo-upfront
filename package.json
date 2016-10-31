@@ -1,14 +1,14 @@
 {
   "name": "generator-upfront",
-  "version": "1.3.1",
+  "version": "1.0.0",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "valentinvieriu/generator-upfront",
+  "repository": "gsin11/yo-upfront",
   "author": {
-    "name": "",
+    "name": "Gurpreet Singh",
     "email": "",
-    "url": "https://github.com/valentinvieriu"
+    "url": "https://github.com/gsin11"
   },
   "scripts": {
     "test": "mocha"

@@ -1,9 +1,9 @@
  /*!
  * @file <%= componentName %>.js
- * @project Siemens
- * @author  Firstname Lastname, SapientNitro <email@sapient.com>
- * @copyright Siemens
- * @site  Siemens
+ * @project ProjectName
+ * @author  Firstname Lastname, Companyname <email@companyname.com>
+ * @copyright ClientName
+ * @site  ClientName
  * @description: Detail description.
  * @module ../templates/components/<%= componentName %>/js/<%= componentName %>
  */
